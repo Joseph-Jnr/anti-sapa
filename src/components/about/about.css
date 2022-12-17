@@ -8,11 +8,6 @@
     color: var(--white);
 }
 
-.about-section .left-area {
-    /* width: 542px;
-    height: auto; */
-}
-
 .about-section .left-area h2 {
     width: 542px;
     font-weight: 700;
