@@ -1,8 +1,13 @@
 import React from 'react'
+import './download.css'
 
 const Download = () => {
   return (
-    <div>Download</div>
+    <section className='downlod-section'>
+      <div className="download-wrap container">
+
+      </div>
+    </section>
   )
 }
 
