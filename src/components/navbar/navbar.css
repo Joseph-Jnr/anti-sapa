@@ -1,0 +1,33 @@
+.nav-links {
+    margin-right: 285px;
+}
+
+.single-link {
+    padding: 20px;
+    gap: 41px;
+}
+
+.single-link a {
+    color: var(--black);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.single-link:nth-child(4) a, 
+.single-link:nth-child(5) a {
+    color: var(--white);
+}
+
+nav .menu-icon {
+    display: none;
+}
+
+@media screen and (max-width: 765px) {
+    .nav-wrap {
+        display: none;
+    }
+    nav .menu-icon {
+        display: block;
+    }
+}

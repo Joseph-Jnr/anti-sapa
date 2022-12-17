@@ -1,0 +1,206 @@
+.hero {
+    position: relative;
+}
+
+.hero-left .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 200px 0px;
+    gap: 16px;
+
+    max-width: 403px;
+    height: 244px;
+}
+
+.hero-left .text h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    color: #0C1825;
+}
+
+.hero-left .text span {
+    color: var(--primary-blue);
+}
+
+.hero-left .text p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.hero-center {
+    position: absolute;
+    width: 542.97px;
+    height: 734px;
+    left: 634.76px;
+    top: 150.75px;
+}
+
+.hero-center .mockup-one {
+    position: absolute;
+    margin-left: -95px;
+    margin-top: 40px;
+}
+
+.hero-center .mockup-one .frame {
+    position: absolute;
+    width: 211.1px;
+    height: 582.8px;
+    left: 20.07px;
+    top: 1.62px;
+
+    background: url(../../assets/main.png);
+}
+
+.hero-center .mockup-one .screen {
+    /* iPhone 12 Pro Black Mockup Right View label */
+    position: absolute;
+    width: 176.13px;
+    height: 557.22px;
+    left: 47.6px;
+    top: 13.6px;
+    z-index: 1;
+
+    background: url(../../assets/iPhone_12_Pro.png);
+    background-size: contain;
+    mix-blend-mode: normal;
+}
+
+.hero-center .mockup-one .shadow {
+    position: relative;
+    width: 255.14px;
+    height: 595.42px;
+    left: 0px;
+    top: 0px;
+
+    background: url(../../assets/shadow.png);
+    opacity: 0.7;
+}
+
+
+/* Mockup two */
+
+.hero-center .mockup-two {
+    position: absolute;
+    left: 160px;
+    top: -99px;
+}
+
+.hero-center .mockup-two .frame {
+    position: absolute;
+    width: 284.6px;
+    height: 582.8px;
+    left: 1.62px;
+    top: 1.62px;
+
+    background: url(../../assets/main1.png);
+}
+
+.hero-center .mockup-two .screen {
+    position: absolute;
+    width: 254.49px;
+    height: 557.22px;
+    left: 15.86px;
+    top: 13.92px;
+
+    background: url(../../assets/iPhone-12-Mockup-Front-View.png);
+    background-size: contain;
+    mix-blend-mode: normal;
+    z-index: 1;
+}
+
+.hero-center .mockup-two .shadow {
+    position: absolute;
+    width: 287.84px;
+    height: 588.3px;
+    left: 0px;
+    top: 0px;
+
+    background: url(../../assets/shadow1.png);
+    opacity: 0.7;
+}
+
+.hero-right {
+    position: absolute;
+    right: 1px;
+    top: 52px;
+    margin-left: 30px;
+}
+
+.hero-right .img-group img {
+    width: 59px;
+    height: 59px;
+    margin-left: -14px;
+}
+
+.hero-download-btns,
+.hero-right .text {
+    position: relative;
+    left: -10px;
+}
+
+.hero-right .text h2 {
+    width: 109px;
+    height: 42px;
+    font-weight: 700;
+    font-size: 32px;
+    color: #F2F2F2;
+    margin: 25px 0px 5px 0px;
+}
+
+.hero-right .text p {
+    width: 202px;
+    height: 42px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #F2F2F2;
+    margin-bottom: 35px;
+}
+
+.hero-download-btns h3 {
+    width: 159px;
+    height: 31px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #F2F2F2;
+}
+
+.hero-download-btns {
+    max-width: 180px;
+}
+
+.hero-download-btns a {
+    margin-top: 15px;
+}
+
+
+@media screen and (max-width: 765px) {
+    .hero-center .mockup-one,
+    .hero-center .mockup-two {
+        display: none;
+    }
+
+    .hero-left .text {
+        padding: 180px 0px;
+    }
+
+    .hero-left .text h2 {
+        font-size: 39px;
+    }
+    .hero-right {
+        position: relative;
+        top: 200px;
+    }
+
+    .hero-right .text h2,
+    .hero-right .text p {
+        color: var(--black);
+    }
+
+    .hero-right .hero-download-btns {
+        display: none;
+    }
+}
