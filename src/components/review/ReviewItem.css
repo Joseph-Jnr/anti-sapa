@@ -1,0 +1,53 @@
+.single-review {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 60px;
+}
+
+.single-review .avatar img {
+    width: 59px;
+    height: auto;
+}
+
+.single-review .side-text {
+    color: #CCCCCC;
+    max-width: 326px;
+    position: relative;
+}
+
+.single-review .side-text span {
+    position: absolute;
+    right: 0px;
+    top: -27px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.single-review .side-text h4 {
+    color: var(--white);
+    padding: 10px 0px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.single-review .side-text p {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+
+
+@media screen and (max-width: 765px) {
+    .single-review .side-text {
+        width: 226px;
+    }
+
+    .single-review .side-text span {
+        font-size: 12px;
+    }
+}
