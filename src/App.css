@@ -17,6 +17,10 @@ header {
 
 
 @media screen and (max-width: 765px) {
+    body {
+        overflow-x: hidden !important;
+    }
+
     .header-circle {
         left: 299px;
         top: -561px;

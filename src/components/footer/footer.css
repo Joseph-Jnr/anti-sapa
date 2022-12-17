@@ -1,0 +1,128 @@
+footer {
+    background: var(--primary-blue);
+    padding: 50px 0px;
+}
+
+.top-footer {
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+}
+
+.top-footer .col_1 p {
+    width: 433px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 20px 0px;
+}
+
+.top-footer .input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25.0775px 23.1484px;
+    gap: 9.65px;
+    width: 453px;
+    height: 59.84px;
+    left: 0px;
+    top: 66px;
+    background: #FFFFFF;
+    border-radius: 3.85807px;
+}
+
+.top-footer .input-group input {
+    outline: none;
+    color: #2B3D51;
+    font-weight: 200;
+}
+
+.top-footer .input-group input:focus, 
+.top-footer .input-group input:active {
+    outline: none;
+}
+
+.top-footer .input-group a {
+    font-weight: 100;
+    margin-right: -10px;
+    border-radius: 3.85807px;
+    height: 46px;
+}
+
+.quick-link h4 {
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--white);
+    margin-bottom: 18px;
+}
+
+.quick-link ul li {
+    margin-bottom: 8px;
+}
+
+.quick-link ul li a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: var(--white);
+}
+
+.quick-link p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: var(--white);
+}
+
+.quick-link p:nth-child(3) {
+    padding: 13px 0px;
+}
+
+.quick-link .socials {
+    display: flex;
+    gap: 20px;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.copyright {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px 0px;
+    margin-top: 20px;
+}
+
+.copyright p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 765px) {
+    .top-footer {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .top-footer .col_2 {
+        margin-top: 40px;
+    }
+
+    .top-footer .col_1 p {
+        width: 283px;
+    }
+    
+    .top-footer .input-group {
+        width: 320px;
+    }
+
+    .top-footer .input-group input {
+        width: 60%;
+    }
+
+    .top-footer .input-group a {
+        margin-left: -46px;
+        width: 110px;
+    }
+}
