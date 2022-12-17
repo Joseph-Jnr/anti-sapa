@@ -11,9 +11,16 @@ a.btn {
     border-radius: 8px;
     font-weight: 600;
 }
+
 a.btn-outline {
     border: 1px solid #F2F2F2;
     color: var(--white);
+}
+
+a.btn-outline-dark {
+    border: 1px solid var(--black);
+    color: var(--black);
+    width: 188px;
 }
 
 a.btn-white {

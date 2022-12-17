@@ -1,0 +1,135 @@
+.download-section {
+    background: var(--white);
+    padding: 50px 0px;
+}
+
+.download-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.download-wrap .text-area h1 {
+    width: 713.62px;
+    font-weight: 700;
+    font-size: 44.811px;
+    line-height: 58px;
+    color: #191919;
+}
+
+.download-wrap .text-area h1>span {
+    color: var(--primary-blue);
+}
+
+.download-wrap .text-area p {
+    width: 646px;
+    font-weight: 400;
+    font-size: 20.1649px;
+    line-height: 26px;
+    color: rgba(29, 29, 29, 0.5);
+    margin-top: 20px;
+}
+
+.download-wrap .btns {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.download-wrap .img-area {
+    display: flex;
+    width: 583.12px;
+    height: 751px;
+    left: 824px;
+    top: 3195.25px;
+}
+
+.download-wrap .img-area::after {
+    content: "";
+    position: absolute;
+    width: 583.12px;
+    height: 583.12px;
+    left: 824px;
+    top: 3270.17px;
+    background: var(--primary-blue);
+    border-radius: 1200px;
+}
+
+.download-wrap .img-area .phone-mockup {
+    position: absolute;
+    left: 950.07px;
+    top: 3195.25px;
+    z-index: 2;
+}
+
+.download-wrap .img-area .frame {
+    position: absolute;
+    width: 302.17px;
+    height: auto;
+    left: 2.1px;
+    top: 2.1px;
+}
+
+.download-wrap .img-area .screen {
+    position: absolute;
+    width: 258.46px;
+    height: 715.7px;
+    left: 10.93px;
+    top: 16.81px;
+    mix-blend-mode: normal;
+}
+
+@media screen and (max-width: 765px) {
+    .download-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .download-wrap .btns {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .download-wrap .text-area h1 {
+        width: 321px;
+        font-size: 35px;
+        line-height: 45px;
+    }
+    
+    .download-wrap .text-area p {
+        width: 300px;
+        font-size: 14px;
+    }
+
+    .download-wrap .img-area::after {
+        content: "";
+        position: relative;
+        width: 320.12px;
+        height: 320.12px;
+        left: 128px;
+        top: 200.17px;
+    }
+
+    .download-wrap .img-area .phone-mockup {
+        position: relative;
+        left: 170px;
+        top: 85.25px;
+    }
+
+    .download-wrap .img-area .frame {
+        position: absolute;
+        width: 234.17px;
+        height: auto;
+        left: 2.1px;
+        top: 2.1px;
+    }
+    
+    .download-wrap .img-area .screen {
+        position: absolute;
+        width: 198.46px;
+        height: auto;
+        left: 9.93px;
+        top: 16.81px;
+        mix-blend-mode: normal;
+    }
+}
