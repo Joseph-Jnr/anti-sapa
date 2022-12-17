@@ -1,0 +1,42 @@
+.feature-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+}
+
+.feature-header .num {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    width: 66px;
+    height: 62px;
+    background: var(--primary-blue);
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--off-white);
+}
+
+.feature-header .title h3 {
+    height: 62px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    text-transform: uppercase;
+    color: var(--off-white);
+}
+
+.feature-text {
+    width: 286px;
+    height: 69px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #CCCCCC;
+    margin-top: 20px;
+}
