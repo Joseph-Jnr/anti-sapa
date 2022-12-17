@@ -47,5 +47,10 @@
 @media screen and (max-width: 765px) {
     .main-reviews {
         flex-direction: column;
+        margin-top: 150px;
+    }
+
+    .main-reviews .row-child:nth-child(2) {
+        order: 3;
     }
 }

@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     gap: 15px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 .single-review .avatar img {
@@ -12,7 +12,7 @@
 
 .single-review .side-text {
     color: #CCCCCC;
-    max-width: 326px;
+    max-width: 340px;
     position: relative;
 }
 

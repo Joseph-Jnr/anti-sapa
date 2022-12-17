@@ -87,13 +87,18 @@
 
     .card-features {
         display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-columns: repeat(4, minmax(0, 1fr));
         gap: 26.2px;
     }
 
     .card-features .single-feature {
         width: 140.04px;
         height: 157px;
+        grid-column: span 2;
+    }
+
+    .card-features .single-feature:nth-last-child(1):nth-child(odd) {
+        grid-column: 2 / span 2;
     }
     
     .card-features .single-feature .icon img {
