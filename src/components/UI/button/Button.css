@@ -13,8 +13,9 @@ a.btn {
 }
 
 a.btn-outline {
-    border: 1px solid #F2F2F2;
+    border: 1px solid var(--off-white);
     color: var(--white);
+    width: 188px;
 }
 
 a.btn-outline-dark {
