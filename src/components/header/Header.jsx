@@ -47,7 +47,7 @@ const Header = () => {
         <div className="hero-download-btns">
           <h3>Download at</h3>
           <Button icon={<BsApple />} text={"Get on iPhone"} btnClass={"btn-outline"} href={"#apple"} />
-          <Button icon={<img src={googlePlay} alt='google play' />} text={"Get on Android"} btnClass={"btn-outline"} href={"#google"} />
+          <Button icon={<img src={googlePlay} alt='google play' />} text={"Get on Android"} btnClass={"btn-outline btn-hero"} href={"#google"} />
         </div>
       </div>
     </div>

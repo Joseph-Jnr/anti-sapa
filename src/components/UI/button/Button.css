@@ -15,6 +15,11 @@ a.btn {
 a.btn-outline {
     border: 1px solid var(--off-white);
     color: var(--white);
+}
+
+a.btn-outline.btn-hero {
+    border: 1px solid var(--off-white);
+    color: var(--white);
     width: 188px;
 }
 
