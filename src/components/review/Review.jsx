@@ -9,7 +9,7 @@ const Review = () => {
   return (
     <section className='review-section'>
       <div className="review-wrap container">
-        <div className="header text-center">
+        <div className="header text-center" data-aos="zoom-in">
           <h2>WHAT OUR <span>HAPPY CUSTOMERS</span> ARE SAYING</h2>
         </div>
 

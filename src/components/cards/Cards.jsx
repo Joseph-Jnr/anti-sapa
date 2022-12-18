@@ -29,7 +29,7 @@ const Cards = () => {
       <div className="card-wrapper container">
         <div className="header text-center">
           <div className="text">
-            <h4><span>ANTI-SAPA</span> PROVIDES VIRTUAL CARDS</h4>
+            <h4 data-aos="zoom-in"><span>ANTI-SAPA</span> PROVIDES VIRTUAL CARDS</h4>
             <p>With <span>ANTI-SAPA</span> virtual card service you can set up your virtual credit card account in seconds, manage it online, and withdraw money at an ATM or pay online in just a few simple steps.</p>
           </div>
         </div>

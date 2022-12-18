@@ -82,7 +82,7 @@
     .download-wrap {
         display: flex;
         flex-direction: column;
-        overflow-x: hidden;
+        overflow: hidden;
     }
 
     .download-wrap .btns {

@@ -8,7 +8,7 @@ import screen from '../../assets/iPhone_12_Pro_ Mockup_label.png'
 
 const Download = () => {
   return (
-    <section className='download-section'>
+    <section className='download-section' id='download'>
       <div className="download-wrap container">
         <div className="text-area">
           <h1>Get Our <span>Mobile App</span> & Make Your Financial Journey More <span>Easy</span></h1>

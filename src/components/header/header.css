@@ -200,6 +200,10 @@
         color: var(--black);
     }
 
+    .hero-right .text h2 {
+        width: 100%;
+    }
+
     .hero-right .hero-download-btns {
         display: none;
     }
