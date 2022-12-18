@@ -22,7 +22,7 @@ const Review = () => {
             }
             
           </div>
-          <div className="row-child rating-illustration">
+          <div className="row-child rating-illustration" data-aos="fade-up">
             <img src={illustration} alt="illustration" />
             <Button icon={""} text={"Sign up now"} btnClass={"btn-primary"} href={"#signup"} />
           </div>

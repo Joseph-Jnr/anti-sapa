@@ -20,7 +20,7 @@ const Download = () => {
         </div>
 
         <div className="img-area">
-          <div className="phone-mockup">
+          <div className="phone-mockup" data-aos="zoom-in-up">
             <div className="frame"><img src={frame} alt="frame" /></div>
             <div className="screen"><img src={screen} alt="screen" /></div>
           </div>

@@ -73,7 +73,7 @@ const Footer = () => {
         </div>
       </div>
         <div className="copyright text-center">
-          <p><span>&copy;</span> ANTI-SAPA 2022. All rights reserved. Landing page designed by Mauteen.</p>
+          <p className='container'><span>&copy;</span> ANTI-SAPA 2022. All rights reserved. Landing page designed by Mauteen & developed by JosephJnr.</p>
         </div>
     </footer>
   )

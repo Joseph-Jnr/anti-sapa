@@ -13,21 +13,21 @@ const Header = () => {
     <div className="hero">
       <div className="hero-left">
         <div className="text">
-          <h2>The Easiest Way to <span>Manage</span> and <span>Save</span> your Money. </h2>
+          <h2 data-aos="fade-down-right">The Easiest Way to <span>Manage</span> and <span>Save</span> your Money. </h2>
           <p><span className='font-bold'>ANTI-SAPA</span> is the best financial Padi you can trust to help you manage and save your MONEY.</p>
           <Button icon={''} text={"Download app"} btnClass={"btn-primary"} href={"#download"} />
         </div>
       </div>
       <div className="hero-center flex flex-row justify-between">
         {/* First phone mockup */}
-        <div className="mockup-one">
+        <div className="mockup-one" data-aos="fade-up">
           <div className="screen"></div>
           <div className="frame"></div>
           <div className="shadow"></div>
         </div>
 
         {/* Second phone mockup */}
-        <div className="mockup-two">
+        <div className="mockup-two" data-aos="zoom-in">
           <div className="screen"></div>
           <div className="frame"></div>
           <div className="shadow"></div>

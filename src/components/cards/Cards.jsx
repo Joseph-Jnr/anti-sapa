@@ -44,7 +44,7 @@ const Cards = () => {
               <img src={card3} alt="Virtual card" />
             </div>
              ) : (
-            <div className="slider">
+            <div className="slider" data-aos="flip-right">
               <Carousel>
                 <div>
                   <img src={card1} alt="Virtual card" />
