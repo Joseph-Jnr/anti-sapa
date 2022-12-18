@@ -6,7 +6,7 @@ footer {
 .top-footer {
     display: flex;
     justify-content: center;
-    gap: 140px;
+    gap: 120px;
 }
 
 .top-footer .col_1 p {
@@ -44,11 +44,12 @@ footer {
     outline: none;
 }
 
-.top-footer .input-group a {
+.top-footer .input-group button {
     font-weight: 100;
     margin-right: -10px;
     border-radius: 3.85807px;
     height: 46px;
+    font-size: 15px;
 }
 
 .quick-link h4 {
@@ -125,7 +126,10 @@ footer {
         width: 60%;
     }
 
-    .top-footer .input-group a {
+    .top-footer .input-group button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin-left: -46px;
         width: 110px;
     }

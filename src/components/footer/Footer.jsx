@@ -20,6 +20,13 @@ const Footer = () => {
     return () => window.removeEventListener("resize", updateMedia);
   });
 
+  const [name, setName] = useState("");
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    alert(`Hey ${name}, thanks for subscribing`)
+  }
+
   return (
     <footer>
       <div className="footer container">
@@ -33,10 +40,15 @@ const Footer = () => {
               </a>
             </div>
             <p>Kindly input your email address to get our daily newsletters.</p>
-            <form>
+            <form onSubmit={handleSubmit}>
               <div className="input-group">
-                <input type="email" placeholder='Enter your email' />
-                <Button icon={''} text={ isDesktop ? 'Subscribe Now' : <HiPaperAirplane size={23} /> } btnClass={'btn-primary'} href={'#'} />
+                <input type="email" placeholder='Enter your email' value={name} onChange={(e) => setName(e.target.value)} />
+                <button type="submit" className='btn btn-primary'>
+                  { isDesktop ? 'Subscribe Now' : <HiPaperAirplane size={23} /> }
+                </button>
+                {/* <button type="submit">
+                  <Button icon={''} text={ isDesktop ? 'Subscribe Now' : <HiPaperAirplane size={23} /> } btnClass={'btn-primary'} href={''} />
+                </button> */}
               </div>
             </form>
           </div>
